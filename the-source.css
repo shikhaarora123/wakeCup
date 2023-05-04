@@ -1,0 +1,53 @@
+body{
+    background-color: olivedrab;
+    color: beige;
+}
+
+
+
+.images{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+      /* border: solid  bisque; */
+    object-fit: cover;
+}
+
+
+
+
+.images .img{
+    width: 98%;
+    height: 200px;
+    /* border: solid  bisque; */
+    object-fit: cover;
+    border: solid beige;
+}
+.img2{
+    grid-column: 1 / 2;
+}
+.img3 {
+    /* height: 200px; */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  
+}
+.img4 {
+    /* height: 200px; */
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  
+}
+
+
+.headline{
+    font-size: large;
+    margin: 5px;
+}
+
+.sources {
+    padding: 5px;
+}
+.source {
+    padding: 0 10px;
+}
+

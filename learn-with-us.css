@@ -1,0 +1,74 @@
+body{
+    background-image: url("/capstoneProject/shikhawakeup/images/aboutusbgimg2.jpg");
+    object-fit: cover;
+    color: whitesmoke;
+    padding: bottom 0;;
+}
+
+.parent-container{
+    height: 90%;
+}
+
+.upper{
+    background-color: #222222;
+    padding-top: 1px;
+    border: solid  rgba(178, 123, 57, 0.821) ;
+    border-width: 3px;
+
+}
+.parent-container img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+    object-position: center;
+    border: solid beige;
+
+}
+h2 {
+    text-align: center;
+}
+
+.headline {
+    color: whitesmoke;
+    border: solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding:0px 30px;
+    background-color: rgba(178, 123, 57, 0.821);
+    width:60%;
+    position: relative;
+    left: 18%;
+    font-size: 18px;
+   font-weight: 250;
+   font-family:sans-serif;
+   
+   transition: all 1s ease-in-out;
+   animation-name: animateHeadline;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+    
+}
+
+.workshops{
+    width: 80%;
+        border: solid rgba(178, 123, 57, 0.821) ;
+    position: relative;
+    top: 20px;
+    left: 10%;
+    border-width: 10px;
+}
+
+.workshop{
+    background-color: #222222;
+    color: rgba(178, 123, 57, 0.821);
+    color: whitesmoke;
+    padding: 0 30px 3px;
+}
+button{
+    padding: 3px;
+    margin-left: 5px;
+    background-color:rgba(178, 123, 57, 0.821) ;
+    color: beige;
+}
+

@@ -1,0 +1,40 @@
+.parent-container{
+ 
+}
+
+.upper img {
+    height: 100px;
+}
+
+.adresses{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* creates 3 columns with the first and third column taking up 1 fraction of the available space each, and the second column taking up 2 fractions */
+  grid-template-rows: 1fr 1fr; /* creates 2 rows, with the first row having a height of 100 pixels, and the second row having a height of 200 pixels */
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  
+}
+
+
+
+.adress {
+    text-align: center;
+    /* border: solid var(--coffee-color); */
+    border: solid beige;
+    border-width: 3px;
+    border-radius: 10%;
+    /* margin: 10px; */
+    font-size: large;
+    justify-self: center; /* centers the item horizontally within its cell */
+    background-color: #222;
+    padding: 0 30px 10px 30px;
+    margin-bottom: 25px;
+}
+
+.adresses img{
+  width: 200px;
+}
+
+

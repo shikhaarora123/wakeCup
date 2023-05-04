@@ -1,0 +1,82 @@
+.pictures {
+    width: 100vw;
+    background-color: rgba(178, 123, 57, 0.821);
+}
+
+
+
+.coffee-blends {
+    width:98.4vw;
+    background-image:url(/capstoneProject/shikhawakeup/images/aboutusbgimg.jpg);
+    color: beige;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-blend-mode:inherit;
+   
+}
+
+
+
+/* h2 {
+    border: solid whitesmoke ;
+    width:max-content;
+    border-radius: 5px;
+    padding:2px;
+} */
+
+.product {
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(178, 123, 57, 0.821);
+    border-radius: 10px;
+    align-items: center;
+    color: black;
+    font-size:small;
+}
+.product img {
+    width: 95%;
+}
+.product .details {
+    padding: 20px;
+}
+
+
+@media all and (max-width:800px){
+    .pictures img {
+        width: 99%;
+        border: solid whitesmoke;
+        border-radius: 10px;
+    
+    }
+    
+}
+
+@media all and (min-width:601px) and (max-width:800px){
+    .pictures img {
+        width: 49%;
+        border: solid whitesmoke;
+        border-radius: 10px;
+    
+    }
+    
+    .product-container{
+        display:flex;
+        
+    }
+
+}
+
+@media all and (min-width:801px){
+    .pictures img {
+        width: 32.5%;
+        border: solid whitesmoke;
+        border-radius: 10px;
+    
+    }
+    
+    .product-container{
+        display:flex;
+        
+    }
+
+}
+

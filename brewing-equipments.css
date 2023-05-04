@@ -1,0 +1,73 @@
+body{
+    background-color:rgba(178, 123, 57, 0.821);
+    color:black;
+}
+/* .parent-container{
+    position: relative;
+} */
+
+
+.image-container{
+    border: solid  beige;
+    position: relative;
+}
+
+
+.image-container #first-image, #second-image{
+   height: 100px;
+   width: 100%;
+  object-fit: cover; /* Prevent the image from stretching */
+}
+
+.heading, .brewing-equipments{
+    color:beige;
+   
+}
+
+.equipments {
+    display: flex;
+    flex-direction: row;
+}
+.equipments .equipment{
+    color: black;
+    background-color: white;
+    background-color:#333333;
+    color:beige;
+    border: solid rgba(178, 123, 57, 0.821);
+    border-radius: 5px;
+    width: 50%;
+    padding: 1px;
+}
+
+.equipment img{
+    width: 100%;
+}
+.equipments .details {
+    padding-left: 5px;
+}
+
+/* for mobile */
+
+@media screen and (max-width: 800px) {
+    .equipments {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .equipments .equipment {
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* for tablet and laptop */
+@media screen and (min-width: 1024px) {
+    .equipments {
+        justify-content: space-between;
+    }
+
+    .equipments .equipment {
+        width: 32%;
+        margin-bottom: 0;
+    }
+}
